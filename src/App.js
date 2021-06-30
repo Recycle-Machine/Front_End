@@ -7,7 +7,6 @@ function App() {
     <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Landing}></Route>
-          <Route component={}></Route>
         </Switch>
     </BrowserRouter>
   );
