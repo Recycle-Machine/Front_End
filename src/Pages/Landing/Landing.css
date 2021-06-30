@@ -1,0 +1,25 @@
+.background{
+    height: 657px;
+    background-color: #8EE15B;
+}
+
+.position{
+
+}
+.title{
+    font-size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.button{
+    background-color: #579E37;
+    width: 25%;
+    height: 100px;
+    align-self: center;
+    border-radius: 5cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-color: black;
+    font-size: 40px;
+}
