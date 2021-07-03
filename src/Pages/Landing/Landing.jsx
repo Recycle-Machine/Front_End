@@ -10,9 +10,12 @@ class Landing extends React.Component{
                     <div>
                         <div className="position">
                             <br/><br/><br/><br/><br/><br/>
-                            <center className="colocation">
+                            <center>
                                 <h1 className="title">Welcome</h1>
+                                <img className="img" src={"https://thumbs.dreamstime.com/b/mountain-lake-camp-ecological-landscape-flat-design-national-park-wildlife-sanctuary-scene-summer-camping-vector-minimal-style-68244632.jpg"} alt="" />
+                                <Link to="/Login">
                                 <button className="button">Save the world!</button>
+                                </Link>
                             </center>
                         </div>
                     </div>

@@ -1,21 +1,4 @@
-.background{
-    height: 50px;
-    margin-top: -150px;
-    background-size: contain;
-}
-
-.img{
-    margin-top: -670px;
-    margin-right: -450px;
-    width: 525px;
-}
-
-.title{
-    font-size: 175px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.button{
+.Button{
     width: 25%;
     height: 100px;
     margin-top: 500px;
@@ -28,7 +11,7 @@
     font-size: 40px;
 }
 
-.button:hover{
+.Button:hover{
     background-color: #579E37;
     color: antiquewhite;
 }
