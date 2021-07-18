@@ -1,0 +1,34 @@
+.background{
+    height: 50px;
+    margin-top: -150px;
+    background-size: contain;
+}
+
+.img{
+    margin-top: -670px;
+    margin-right: -450px;
+    width: 525px;
+}
+
+.title{
+    font-size: 175px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    width: 25%;
+    height: 100px;
+    margin-top: 500px;
+    margin-bottom: -500px;
+    margin-left: -35px;
+    border-radius: 10cm;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: #579E37;
+    border-style: double;
+    font-size: 40px;
+}
+
+.button:hover{
+    background-color: #579E37;
+    color: antiquewhite;
+}
