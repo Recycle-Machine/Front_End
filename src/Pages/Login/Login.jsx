@@ -7,20 +7,20 @@ class Login extends React.Component{
         return(
             <React.Fragment>
                     <center>
-                        <div class="Texts">
-                            <img className="img1" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />
+                        <div className="Texts">
+                            <img className="imgLo" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />
                             <div className="fixedposition">
-                                <div class="form-group">
-                                    <input type="email" class="text" placeholder="Email"/>
+                                <div className="form-group">
+                                    <input type="email" className="text" placeholder="Email"/>
                                 </div>
                                 <br/>
-                                <div class="form-group">
-                                    <input type="password" class="text" placeholder="Password"/>
+                                <div className="form-group">
+                                    <input type="password" className="text" placeholder="Password"/>
                                 </div>
                                 </div>
                                 <div>
                             </div>
-                                <Link to="/">
+                                <Link to="/Landing">
                                 <button className="button1">Login</button>
                                 </Link>  
                         </div>
