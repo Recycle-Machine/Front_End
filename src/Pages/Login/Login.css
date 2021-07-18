@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.img1{
+.imgLog{
     width: 250px;
     margin-top: -550px;
     background-color: #579E37;
@@ -27,7 +27,6 @@
     height: 100px;
     margin-top: 35px;
     margin-bottom: -500px;
-    margin-left: -35px;
     border-radius: 10cm;
     font-family: 'Times New Roman', Times, serif;
     border-color: #579E37;
