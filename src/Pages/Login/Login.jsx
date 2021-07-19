@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import Navbar from '../../components/Navbar';
 import "./Login.css"
 
 class Login extends React.Component{
@@ -7,8 +8,9 @@ class Login extends React.Component{
         return(
             <React.Fragment>
                     <center>
+                        <Navbar></Navbar>
                         <div className="Texts">
-                            <img className="imgLo" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />
+                            <img className="imgLog" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />
                             <div className="fixedposition">
                                 <div className="form-group">
                                     <input type="email" className="text" placeholder="Email"/>
