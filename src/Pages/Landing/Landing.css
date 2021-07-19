@@ -1,34 +1,62 @@
-.background{
-    height: 50px;
-    margin-top: -150px;
-    background-size: contain;
+.imgLan{
+    width: 350px;
+    margin-left: 150px;
+    margin-top: -290px;
+    background-color: #579E37;
+    border-radius: 50px;
 }
 
-.img{
-    margin-top: -670px;
-    margin-right: -450px;
-    width: 525px;
+.buttonsposition{
+    margin-top: -435px;
+    margin-left: -300px;
 }
 
-.title{
-    font-size: 175px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.button{
-    width: 25%;
+.buttonLan{
+    width: 600px;
     height: 100px;
-    margin-top: 500px;
-    margin-bottom: -500px;
-    margin-left: -35px;
-    border-radius: 10cm;
+    border-radius: 50px;
+    font-size: 50px;
+    margin-left: 1000px;
     font-family: 'Times New Roman', Times, serif;
     border-color: #579E37;
     border-style: double;
-    font-size: 40px;
 }
 
-.button:hover{
+.buttonLan:hover{
+    background-color: #579E37;
+    color: antiquewhite;
+}
+
+.buttonLan1{
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: #579E37;
+    border-style: double;
+}
+
+.buttonLan1:hover{
+    background-color: #579E37;
+    color: antiquewhite;
+}
+
+.buttonLan2{
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    margin-top: 105px;
+    margin-left: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: #579E37;
+    border-style: double;
+}
+
+.buttonLan2:hover{
     background-color: #579E37;
     color: antiquewhite;
 }
