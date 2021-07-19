@@ -8,8 +8,8 @@
 }
 
 .text{
-    width: 800px;
-    height: 100px;
+    width: 700px;
+    height: 75px;
     border-radius: 50px;
     font-size: 50px;
     text-align: center;
@@ -24,7 +24,7 @@
 
 .button1{
     width: 25%;
-    height: 100px;
+    height: 75px;
     margin-top: 35px;
     margin-bottom: -500px;
     border-radius: 10cm;
