@@ -3,6 +3,8 @@ import{ BrowserRouter, Route, Switch} from "react-router-dom"
 import Main from './Pages/Main/Main';
 import Login from './Pages/Login/Login';
 import Landing from './Pages/Landing/Landing';
+import Storage from './Pages/Storage/Storage';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           <Route exact path="/" component={Main}></Route>
           <Route exact path="/Login" component={Login}></Route>
           <Route exact path="/Landing" component={Landing}></Route>
+          <Route exact path="/Storage" component={Storage}></Route>
+          <Route component={NotFound}></Route>
         </Switch>
     </BrowserRouter>
   );
