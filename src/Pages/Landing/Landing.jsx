@@ -12,10 +12,10 @@ class Landing extends React.Component{
                             <div class="Texts">
                                 <img className="imgLan" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />
                                     <div className="buttonsposition">
-                                        <Link to="/Materials_info">
+                                        <Link to="/MaterialsInformation">
                                         <button className="buttonLan">Materials information</button>/button>
                                         </Link>  
-                                        <Link to="/Storage_page">
+                                        <Link to="/Storage">
                                         <button className="buttonLan1">Storage</button>
                                         </Link>  
                                         <Link to="/Recycle Transactions">
