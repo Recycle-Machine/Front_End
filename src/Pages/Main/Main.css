@@ -5,22 +5,22 @@
 }
 
 .img{
-    margin-top: -670px;
+    margin-top: -500px;
     margin-right: -450px;
-    width: 525px;
+    width: 400px;
 }
 
 .title{
-    font-size: 175px;
+    font-size: 125px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .button{
     width: 25%;
-    height: 100px;
-    margin-top: 500px;
+    height: 75px;
+    margin-top: 400px;
     margin-bottom: -500px;
-    margin-left: -35px;
+    margin-left: 75px;
     border-radius: 10cm;
     font-family: 'Times New Roman', Times, serif;
     border-color: #579E37;
