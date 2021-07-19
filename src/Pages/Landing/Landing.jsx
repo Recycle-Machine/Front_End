@@ -1,25 +1,29 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import Navbar from '../../components/Navbar';
 import "./Landing.css"
 
 class Landing extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <div className="background">
-                    <div>
-                        <div className="position">
-                            <br/><br/><br/><br/><br/><br/>
-                            <center>
-                                <h1 className="title">Welcome</h1>
-                                <img className="img" src={"https://thumbs.dreamstime.com/b/mountain-lake-camp-ecological-landscape-flat-design-national-park-wildlife-sanctuary-scene-summer-camping-vector-minimal-style-68244632.jpg"} alt="" />
-                                <Link to="/Login">
-                                <button className="button">Save the world!</button>
-                                </Link>
-                            </center>
+                <Navbar></Navbar>
+                        <div className="column">
+                            <div class="Texts">
+                                <img className="imgLan" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />
+                                    <div className="buttonsposition">
+                                        <Link to="/Materials_info">
+                                        <button className="buttonLan">Materials information</button>/button>
+                                        </Link>  
+                                        <Link to="/Storage_page">
+                                        <button className="buttonLan1">Storage</button>
+                                        </Link>  
+                                        <Link to="/Recycle Transactions">
+                                        <button className="buttonLan2">Recycle Transactions</button>
+                                        </Link>
+                                    </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
             </React.Fragment>
         );
     }
