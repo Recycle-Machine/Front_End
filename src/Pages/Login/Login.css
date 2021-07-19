@@ -13,6 +13,8 @@
     border-radius: 50px;
     font-size: 50px;
     text-align: center;
+    border-color: #579E37;
+    border-style: double;
 }
 
 .imgLog{
