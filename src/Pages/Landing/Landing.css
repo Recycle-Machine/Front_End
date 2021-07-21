@@ -1,16 +1,38 @@
-.imgLan{
-    width: 350px;
-    margin-left: 150px;
-    margin-top: -290px;
-    background-color: #579E37;
+.landingBackground{
+    background-color: #5CDB95;
+}
+.contentBackground{
+    background-color: #379683;
+    margin-top: -370px;
+    width: 1250px;
+    margin-left: 130px;
+    height: 550px;
     border-radius: 50px;
 }
-
-.buttonsposition{
-    margin-top: -435px;
-    margin-left: -300px;
+.imgLan{
+    width: 250px;
+    margin-left: 220px;
+    margin-top: 5px;
+    background-color: #5CDB95;
+    border-radius: 150px;
 }
-
+.imgLan1{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: -2px;
+    border-radius: 50px;
+}
+.textsLan{
+    width: 800px;
+    margin-top: 400px;
+}
+.imagesPosition{
+    margin-left: -100px;
+}
+.buttonsPosition{
+    margin-top: -525px;
+    margin-left: -450px;
+}
 .buttonLan{
     width: 600px;
     height: 100px;
@@ -18,15 +40,9 @@
     font-size: 50px;
     margin-left: 1000px;
     font-family: 'Times New Roman', Times, serif;
-    border-color: #579E37;
+    background-color: #5CDB95;
     border-style: double;
 }
-
-.buttonLan:hover{
-    background-color: #579E37;
-    color: antiquewhite;
-}
-
 .buttonLan1{
     width: 600px;
     height: 100px;
@@ -35,15 +51,9 @@
     margin-top: 90px;
     margin-left: 1000px;
     font-family: 'Times New Roman', Times, serif;
-    border-color: #579E37;
+    background-color: #5CDB95;
     border-style: double;
 }
-
-.buttonLan1:hover{
-    background-color: #579E37;
-    color: antiquewhite;
-}
-
 .buttonLan2{
     width: 600px;
     height: 100px;
@@ -52,11 +62,6 @@
     margin-top: 105px;
     margin-left: 1000px;
     font-family: 'Times New Roman', Times, serif;
-    border-color: #579E37;
+    background-color: #5CDB95;
     border-style: double;
-}
-
-.buttonLan2:hover{
-    background-color: #579E37;
-    color: antiquewhite;
 }
