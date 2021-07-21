@@ -1,10 +1,20 @@
-.Texts{
+.loginBackground{
+    background-color: #5CDB95;
+}
+.allItemsBackground{
+    background-color: #379683;
+    margin-top: -380px;
+    height: 570px;
+    width: 850px;
+    border-radius: 50px;
+}
+.texts{
     width: 800px;
     margin-top: 400px;
 }
 
 .fixedposition{
-    margin-top: -125px;
+    margin-top: 10px;
 }
 
 .text{
@@ -13,15 +23,15 @@
     border-radius: 50px;
     font-size: 50px;
     text-align: center;
-    border-color: #579E37;
+    background-color: #5CDB95;
     border-style: double;
 }
 
 .imgLog{
     width: 250px;
-    margin-top: -550px;
-    background-color: #579E37;
-    border-radius: 50px;
+    margin-top: 15px;
+    background-color: #5CDB95;
+    border-radius: 125px;
 }
 
 .button1{
@@ -31,12 +41,8 @@
     margin-bottom: -500px;
     border-radius: 10cm;
     font-family: 'Times New Roman', Times, serif;
-    border-color: #579E37;
+    background-color: #05386B;
     border-style: double;
     font-size: 40px;
-}
-
-.button1:hover{
-    background-color: #579E37;
-    color: antiquewhite;
+    color: white;
 }
