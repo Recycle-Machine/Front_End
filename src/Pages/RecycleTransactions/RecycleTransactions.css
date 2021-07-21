@@ -1,0 +1,67 @@
+.transactionsBackground{
+    background-color: #5CDB95;
+}
+.bar{
+    width: 900px;
+    height: 50px;
+    background-color: #379683;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 225px;
+}
+.qr{
+    margin-top: -5px;
+    margin-left: 25px;
+}
+.id{
+    margin-top: -55px;
+    margin-left: 150px;
+}
+.machine{
+    margin-top: -55px;
+    margin-left: 275px;
+}
+.amount{
+    margin-top: -55px;
+    margin-left: 500px;
+}
+.details{
+    margin-top: -55px;
+    margin-left: 730px;
+}
+.barInfo{
+    width: 900px;
+    height: 50px;
+    border-style: solid;
+    border-color: #379683;
+    border-radius: 25px;
+    margin-top: 9px;
+    margin-left: 225px;
+}
+.qrInfo{
+    width: 40px;
+    margin-top: 2px;
+    margin-left: 25px;
+}
+.idInfo{
+    margin-top: -45px;
+    margin-left: 100px;
+}
+.machineInfo{
+    margin-top: -55px;
+    margin-left: 300px;
+}
+.amountInfo{
+    margin-top: -55px;
+    margin-left: 450px;
+}
+.detailsInfo{
+    width: 45px;
+    margin-left: 730px;
+    margin-top: -95px;
+}
+.deleteInfo{
+    width: 50px;
+    margin-left: 790px;
+    margin-top: -145px;
+}
