@@ -1,0 +1,59 @@
+.Card{
+    width: 100%;
+    height: 100%;
+    background-color: #05386B;
+    border-radius: 3%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.img_container{
+    width: 60%;
+    height: 45%;
+    background-color: #5CDB95;
+    border-radius: 3%;
+    transform: translateY(10%);
+}
+.img_container img{
+    max-width: 50%;
+    transform: translateY(10%);
+}
+.material_title{
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.points_text{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+}
+.points_container{
+    margin: auto;
+    width: 90%;
+    height: 13%;
+    background-color: #5CDB95;
+    border-radius: 45px;
+}
+.points_container p{
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    transform: translateY(80%);
+}
+
+.Suggestions_container{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    background-color: #05386B;
+}
+.text_field{
+    background-color: #5CDB95;
+    height: 15%;
+    border-radius: 25px;
+}
+.label{
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-left: 5%;
+}
