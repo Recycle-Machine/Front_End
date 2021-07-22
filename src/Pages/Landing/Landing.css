@@ -5,26 +5,25 @@
     background-color: #379683;
     margin-top: -370px;
     width: 1250px;
-    margin-left: 130px;
+    margin-left: 4%;
     height: 550px;
     border-radius: 50px;
 }
 .imgLan{
-    width: 250px;
+    width: 28%;
     margin-left: 220px;
-    margin-top: 5px;
+    margin-top: -32%;
     background-color: #5CDB95;
-    border-radius: 150px;
+    border-radius: 50%;
 }
 .imgLan1{
-    width: 300px;
-    margin-left: 200px;
-    margin-top: -2px;
-    border-radius: 50px;
+    width: 33%;
+    margin-left: -30%;
+    margin-top: 28.5%;
 }
 .textsLan{
-    width: 800px;
-    margin-top: 400px;
+    width: 64%;
+    margin-top: 31%;
 }
 .imagesPosition{
     margin-left: -100px;
