@@ -19,7 +19,7 @@ class Login extends React.Component{
                                     </div>
                                     <br/>
                                     <div className="form-group">
-                                        <input type="password" className="text" placeholder="Password"/>
+                                        <input type="password" className="text1" placeholder="Password"/>
                                     </div>
                                     </div>
                                     <div>
