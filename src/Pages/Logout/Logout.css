@@ -1,0 +1,48 @@
+.logoutBackground{
+    background-color: #5CDB95;
+}
+.logoutContentBackground{
+    width: 42%;
+    margin-left: 28%;
+    background-color: #379683;
+    margin-top: -10%;
+    height: 35%;
+    border-radius: 50px;
+}
+.titleLogout{
+    width: 700px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -20%;
+    margin-left: 7%;
+}
+.buttonLogout{
+    color: white;
+    width: 38%;
+    margin-top: 25%;
+    margin-left: 8%;
+    border-radius: 50px;
+    border-style: double;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #5CDB95;
+}
+.buttonLogout1{
+    color: white;
+    width: 18%;
+    margin-top: 10.5%;
+    margin-left: 2%;
+    border-radius: 50px;
+    border-style: double;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #5CDB95;
+    position: fixed;
+}
+.textslog{
+    width: 100%;
+    margin-top: 50%;
+}
