@@ -9,6 +9,7 @@ class Landing extends React.Component{
             <React.Fragment>
                 <div className="landingBackground" style={{ height: '100vh' }}>
                     <Navbar></Navbar>
+                    <center>
                         <div className="contentBackground">
                             <div class="textsLan">
                                 <div className="imagesPosition">
@@ -19,15 +20,16 @@ class Landing extends React.Component{
                                     <Link to="/Materials information">
                                     <button className="buttonLan">Materials information</button>
                                     </Link>  
-                                    <Link to="/Storage">
-                                    <button className="buttonLan1">Storage</button>
-                                    </Link>  
                                     <Link to="/Recycle Transactions">
-                                    <button className="buttonLan2">Recycle Transactions</button>
+                                    <button className="buttonLan1">Recycle Transactions</button>
+                                    </Link>  
+                                    <Link to="/Storage">
+                                    <button className="buttonLan2">Storage</button>
                                     </Link>
                                 </div>
                             </div>
                         </div>
+                    </center>
                 </div>
             </React.Fragment>
         );
