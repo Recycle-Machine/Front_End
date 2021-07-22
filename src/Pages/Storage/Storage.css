@@ -20,7 +20,7 @@
     margin-top: 30px;
     margin-left: 5px;
 }
-.card{
+.cardContainer{
     border-style: solid;
     width: 30%;
     height: 470px;
@@ -31,7 +31,6 @@
     justify-content: center;
 }
 .imgContainer{
-    margin: auto;
     margin-top: 15px;
     margin-left: 15px;
     width: 40px;
@@ -44,7 +43,7 @@
     margin-top: 300px;
     margin-left: 750px;
 }
-.mgContainer1{
+.imgContainer1{
     margin: auto;
     margin-top: 15px;
     margin-left: 15px;
