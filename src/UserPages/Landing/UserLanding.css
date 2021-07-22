@@ -1,0 +1,129 @@
+/* Card */
+.userLandingBackground{
+    background-color: #5CDB95;
+}
+.userImgsContainer{
+    background-color: #5CDB95;
+    width: 22%;
+    height: 50%;
+    margin-top: -63%;
+    margin-left: 72%;
+    border-radius: 30px;
+}
+.userImage1{
+    width: 90%;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.userImage2{
+    width: 90%;
+    margin-top: 27%;
+    margin-left: 5%;
+}
+.userCardContainer{
+    border-style: solid;
+    width: 30%;
+    height: 71%;
+    margin-top: -22%;
+    margin-left: 10%;
+    background-color: #05386B;
+    border-radius: 40px;
+}
+.userImgContainer{
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 3%;
+    height: 50%;
+    background-color: #5CDB95;
+    border-radius: 35px;
+}
+.userImgContainer img{
+    width: 450%;
+    margin-top: 1100%;
+    margin-left: 2300%;
+}
+.userImgContainer1{
+    width: 60%;
+    height: 50%;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-color: #5CDB95;
+    border-radius: 35px;
+}
+.userImgContainer1 img{
+    width: 80%;
+    margin-top: 7%;
+    margin-left: 11%;
+}
+.userMaterialTitle{
+    margin-top: 2%;
+    margin-left: -55%;
+    color: white;
+    font-size: 150%;
+    font-weight: 500;
+}
+.userPointsText{
+    width: 50%;
+    margin-top: -5%;
+    margin-left: -35%;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+}
+.userPointsContainer{
+    width: 25%;
+    height: 40px;
+    margin-left: 2%;
+    position: fixed;
+    background-color: #5CDB95;
+    border-radius: 45px;
+}
+.userPointsContainer p{
+    color: #05386B;
+    font-size: 150%;
+    font-weight: 500;
+}
+/* Cards Info */
+.userCardInfo{
+    background-color: #05386B;
+    width: 48%;
+    height: 18%;
+    margin-top: -34%;
+    margin-left: 45%;
+    border-radius: 35px;
+}
+.userCardInfo1{
+    background-color: #05386B;
+    width: 48%;
+    height: 18%;
+    margin-top: 1.5%;
+    margin-left: 45%;
+    border-radius: 35px;
+}
+.userCardInfo2{
+    background-color: #05386B;
+    width: 48%;
+    height: 18%;
+    margin-top: 1.5%;
+    margin-left: 45%;
+    border-radius: 35px;
+}
+.userTextInfo{
+    margin-left: 22%;
+    margin-top: -2%;
+    font-size: 350%;
+    color: white;
+}
+.userTextInfo1{
+    margin-left: 30%;
+    margin-top: -2%;
+    font-size: 400%;
+    color: white;
+}
+.userTextInfo2{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: -2%;
+    font-size: 350%;
+    color: white;
+}
