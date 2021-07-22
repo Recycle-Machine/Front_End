@@ -39,10 +39,10 @@
     height: 75px;
     margin-top: 35px;
     margin-bottom: -500px;
-    border-radius: 10cm;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #05386B;
-    border-style: double;
     font-size: 40px;
     color: white;
+    background-color: #05386B;
+    border-style: double;
+    border-radius: 10cm;
 }
