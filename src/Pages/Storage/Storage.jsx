@@ -10,7 +10,7 @@ class Storage extends React.Component{
                 <div className="storageBackground" style={{ height: '100vh' }}>
                 <Navbar></Navbar>
                     <div className="imgContainer"><img src="https://www.dropbox.com/s/4gylvjg08xizpjg/deer.png?raw=1" alt="Material" /></div>
-                    <div className="card">
+                    <div className="cardContainer">
                         <div className="imgContainer1"><img src="https://www.dropbox.com/s/f39pivzkx16zk6m/icons8-maquina-expendedora-50_1.png?raw=1" alt="Material" /></div>
                         <br></br>
                         <div className="imgsContainer">
