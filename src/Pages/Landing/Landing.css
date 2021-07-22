@@ -3,64 +3,63 @@
 }
 .contentBackground{
     background-color: #379683;
-    margin-top: -370px;
-    width: 1250px;
-    margin-left: 4%;
-    height: 550px;
+    width: 90%;
+    height: 220%;
+    margin-top: -26%;
     border-radius: 50px;
 }
 .imgLan{
-    width: 28%;
-    margin-left: 220px;
-    margin-top: -32%;
+    width: 16%;
+    margin-left: 10%;
+    margin-top: -17.5%;
     background-color: #5CDB95;
     border-radius: 50%;
 }
 .imgLan1{
-    width: 33%;
-    margin-left: -30%;
-    margin-top: 28.5%;
+    width: 18%;
+    margin-left: -17%;
+    margin-top: 16.5%;
 }
 .textsLan{
     width: 64%;
     margin-top: 31%;
 }
 .imagesPosition{
-    margin-left: -100px;
+    margin-left: -100%;
 }
 .buttonsPosition{
-    margin-top: -525px;
-    margin-left: -450px;
+    margin-top: -65.5%;
+    margin-left: -268%;
 }
 .buttonLan{
-    width: 600px;
-    height: 100px;
+    width: 44%;
+    height: 16%;
+    position: fixed;
     border-radius: 50px;
-    font-size: 50px;
-    margin-left: 1000px;
+    font-size: 300%;
+    margin-left: 70%;
     font-family: 'Times New Roman', Times, serif;
     background-color: #5CDB95;
-    border-style: double;
 }
 .buttonLan1{
-    width: 600px;
-    height: 100px;
+    width: 44%;
+    height: 16%;
+    position: fixed;
     border-radius: 50px;
-    font-size: 50px;
-    margin-top: 90px;
-    margin-left: 1000px;
+    font-size: 300%;
+    margin-top: 28%;
+    margin-left: 70%;
     font-family: 'Times New Roman', Times, serif;
     background-color: #5CDB95;
-    border-style: double;
 }
 .buttonLan2{
-    width: 600px;
-    height: 100px;
+    width: 44%;
+    height: 16%;
+    position: fixed;
     border-radius: 50px;
-    font-size: 50px;
-    margin-top: 105px;
-    margin-left: 1000px;
+    font-size: 300%;
+    margin-top: 14%;
+    margin-left: 70%;
     font-family: 'Times New Roman', Times, serif;
     background-color: #5CDB95;
-    border-style: double;
 }
