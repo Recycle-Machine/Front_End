@@ -2,66 +2,66 @@
     background-color: #5CDB95;
 }
 .bar{
-    width: 900px;
+    width: 66%;
     height: 50px;
     background-color: #379683;
     border-radius: 25px;
-    margin-top: 25px;
-    margin-left: 225px;
+    margin-top: 1%;
+    margin-left: 17%;
 }
 .qr{
-    margin-top: -5px;
-    margin-left: 25px;
+    margin-top: 1%;
+    margin-left: 3%;
 }
 .id{
-    margin-top: -55px;
-    margin-left: 150px;
+    margin-top: -6%;
+    margin-left: 17%;
 }
 .machine{
-    margin-top: -55px;
-    margin-left: 275px;
+    margin-top: -6%;
+    margin-left: 30%;
 }
 .amount{
-    margin-top: -55px;
-    margin-left: 500px;
+    margin-top: -6.1%;
+    margin-left: 55%;
 }
 .details{
-    margin-top: -55px;
-    margin-left: 730px;
+    margin-top: -6.2%;
+    margin-left: 80%;
 }
 .barInfo{
-    width: 900px;
-    height: 50px;
+    width: 66%;
+    height: 7.8%;
     border-style: solid;
     border-color: #379683;
     border-radius: 25px;
-    margin-top: 9px;
-    margin-left: 225px;
+    margin-top: 0.5%;
+    margin-left: 16.7%;
 }
 .qrInfo{
-    width: 40px;
-    margin-top: 2px;
-    margin-left: 25px;
+    width: 4%;
+    margin-top: 0.5%;
+    margin-left: 4%;
 }
 .idInfo{
-    margin-top: -45px;
-    margin-left: 100px;
+    margin-top: -5%;
+    margin-left: 12.5%;
 }
 .machineInfo{
-    margin-top: -55px;
-    margin-left: 300px;
+    margin-top: -6%;
+    margin-left: 33%;
 }
 .amountInfo{
-    margin-top: -55px;
-    margin-left: 450px;
+    margin-top: -6.5%;
+    margin-left: 50%;
 }
 .detailsInfo{
-    width: 45px;
-    margin-left: 730px;
-    margin-top: -95px;
+    width: 5%;
+    margin-left: 82%;
+    margin-top: -9.5%;
 }
 .deleteInfo{
-    width: 50px;
-    margin-left: 790px;
-    margin-top: -145px;
+    width: 6%;
+    margin-left: 88%;
+    margin-top: -15%;
 }
