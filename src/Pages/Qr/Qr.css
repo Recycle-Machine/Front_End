@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+.backgroundColor{
+    background-color:#5CDB95;
+}
+
+.img{
+    width: 250px;
+    position: center;
+}
+.whale{
+    width: 40%;
+    position: center;
+}
+.ray{
+    width: 60%;
+    position: center;
+}
+
+.title{
+    margin-left: 10%;
+    font-size: 75px;
+    font-family: 'Baloo 2', cursive;
+    color:black;
+}
+
+.square{
+    margin: 5%;
+    height: 65%;
+    width: 65%;
+    position: center;
+  background-color: #05386B;
+}
+
+.QRCode{
+    margin: 10%;
+    position: center;
+    
+    
+}
+#h3{
+    font-family: 'Baloo 2', cursive;
+    color:aliceblue;
+    
+}
+
+.button{
+    width: 45%;
+    height: 75px;
+    margin-left: 37%;
+    border-radius: 10cm;
+    font-family: 'Baloo 2', bold;
+    background: #05386B;
+    border-color: #05386B;
+    border-style: double;
+    font-size: 40px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #05386B;
+}
