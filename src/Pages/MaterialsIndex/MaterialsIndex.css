@@ -1,0 +1,31 @@
+.MaterialContainer{
+    width: 80%;
+    height: 25%;
+    background-color: #05386B;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.ImageContainer{
+    height: 80%;
+    width: 15%;
+    background-color: #5CDB95;
+    border-radius: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+    transform: translateY(10%);
+}
+.ImageContainer img{
+    width: 60% !important;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.MaterialContainer p{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    font-weight: 700;
+    transform: translateY(-150%);
+}
