@@ -53,7 +53,7 @@ class QR extends React.Component {
               </Link>
             </div>
             <div class="col-6">
-            <Link to="/Login">
+            <Link to="/Recycle Transactions">
                 <button className="button">Main Menu</button>
               </Link>
             </div>
