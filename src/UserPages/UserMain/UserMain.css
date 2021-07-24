@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+.userMainBackgroundColor{
+    background-color:#5CDB95;
+}
+
+.mainImg{
+    margin-top: -32%;
+    float: right;
+    width: 52%;
+    position: center;
+}
+
+.userTitle{
+    margin-left: -50%;
+    font-size: 630%;
+    font-family: 'Baloo 2', cursive;
+    color:aliceblue;
+}
+
+#mainH3{
+    width: 50%;
+    font-family: 'Baloo 2', cursive;
+    font-size: 200%;
+    float: left;
+    color:aliceblue;
+    text-align: left;
+}
+
+.userButton{
+    width: 25%;
+    height: 75px;
+    margin-top: 100px;
+    margin-left: 75px;
+    border-radius: 10cm;
+    font-family: 'Baloo 2', bold;
+    border-color: #05386B;
+    border-style: double;
+    font-size: 40px;
+}
+
+.userButton:hover{
+    background-color: #05386B;
+    color: antiquewhite;
+}
