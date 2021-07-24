@@ -17,7 +17,7 @@ class Landing extends React.Component{
                                     <img className="imgLan1" src={"https://www.dropbox.com/s/zar83qgkkupd86i/Jellyfish-amico.svg?raw=1"} alt="" />
                                 </div>
                                 <div className="buttonsPosition">
-                                    <Link to="/Materials information">
+                                    <Link to="/Materials">
                                     <button className="buttonLan">Materials information</button>
                                     </Link>  
                                     <Link to="/Recycle Transactions">
