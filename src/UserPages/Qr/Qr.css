@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+.qrBackgroundColor{
+    background-color:#5CDB95;
+}
+
+.whale{
+    width: 23%;
+    margin-top: -17%;
+    float: left;
+}
+.ray{
+    width: 30%;
+    margin-top: -35%;
+    float: right;
+}
+
+.qrTitle{
+    margin-left: 10%;
+    font-size: 75px;
+    font-family: 'Baloo 2', cursive;
+    color:black;
+    text-align: center;
+}
+
+.square{
+    margin: 5%;
+    margin-top: -1%;
+    border-radius: 40px;
+    height: 100%;
+    width: 30%;
+    position: center;
+    background-color: #05386B;
+}
+
+.QRCode{
+    margin: 5%;
+    position: center;    
+}
+
+.qrButton{
+    width: 25%;
+    height: 75px;
+    margin-top: -1%;
+    margin-left: 53%;
+    border-radius: 10cm;
+    font-family: 'Baloo 2', bold;
+    background: #05386B;
+    border-color: #05386B;
+    border-style: double;
+    font-size: 40px;
+}
+
+.qrButton1{
+    width: 25%;
+    height: 75px;
+    position: fixed;
+    margin-left: -55%;
+    margin-top: -1%;
+    border-radius: 10cm;
+    font-family: 'Baloo 2', bold;
+    background: #05386B;
+    border-color: #05386B;
+    border-style: double;
+    font-size: 40px;
+}
+
+.qrButton:hover{
+    background-color: white;
+    color: #05386B;
+}
+.qrButton1:hover{
+    background-color: white;
+    color: #05386B;
+}
