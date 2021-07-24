@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import "./UserLanding.css"
 
@@ -32,22 +33,28 @@ class UserLanding extends React.Component{
                         </center>
                     </div>
                         <div className="userCardInfo">
+                        <Link to="/Materials">
                             <div>
                                 <br/>
                                 <div className="userTextInfo">Start Recycling</div>
                             </div>
+                        </Link>
                         </div>
                         <div className="userCardInfo1">
+                        <Link to="/Rewards">
                             <div>
                                 <br/>
                                 <div className="userTextInfo1">Rewards</div>
                             </div>
+                        </Link>
                         </div>
                         <div className="userCardInfo2">
+                        <Link to="/Recycle">
                             <div>
                                 <br/>
                                 <div className="userTextInfo2">Materials Accepted</div>
                             </div>
+                        </Link>
                         </div>
                     </div>
             </React.Fragment>
