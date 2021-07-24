@@ -10,9 +10,9 @@ class MaterialsInfo extends React.Component{
                 <Navbar></Navbar>
                 <div id="row">
                         <div className="CardInfo">
-                            <div className="img_container"><img src="https://www.dropbox.com/s/ewr3ngkalfox4lx/icons8-bote-de-cerveza-50.png?raw=1" alt="Material" /></div>
+                            <div className="img_container"><img src="https://www.dropbox.com/s/td9t6fs54ttdsbd/icons8-botella-de-agua-50.png?raw=1" alt="Material" /></div>
                             <br></br>
-                            <div className="material_title">Soda Cans</div>
+                            <div className="material_title">Plastic Bottle</div>
                             <br></br>
                             <div className="points_text">Points per unit</div>
                             <br></br>
