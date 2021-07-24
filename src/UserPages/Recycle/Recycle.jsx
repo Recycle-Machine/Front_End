@@ -18,8 +18,12 @@ class RecycleUser extends React.Component{
                                     <div className="imageItem"><img src="https://www.dropbox.com/sh/2efk6rmts9zqhit/AADmW7ECznpGKulCILOK4ydMa/icons8-bote-de-cerveza-50.png?raw=1" alt="" /></div>
                                     <div className="infoItem"><p>2.1 Kilograms</p></div>
                                 </div>
+                            <Link to="/QR">
                             <button className="qr-code">Scan</button>
+                            </Link>
+                            <Link to="/UserMain">
                             <button className="end">End Recycling</button>
+                            </Link>
                     </div>
                 </div>
             </React.Fragment>
