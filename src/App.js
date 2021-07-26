@@ -7,6 +7,7 @@ import Logout from './Pages/Logout/Logout';
 import Landing from './Pages/Landing/Landing';
 import Storage from './Pages/Storage/Storage';
 import NotFound from './Pages/NotFound/NotFound';
+import Rewards from './UserPages/Rewards/Rewards';
 import UserMain from './UserPages/UserMain/UserMain';
 import RecycleUser from './UserPages/Recycle/Recycle';
 import UserLanding from './UserPages/Landing/UserLanding';
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/Logout" component={Logout}></Route>
           <Route exact path="/Landing" component={Landing}></Route>
           <Route exact path="/Storage" component={Storage}></Route>
+          <Route exact path="/Rewards" component={Rewards}></Route>
           <Route exact path="/UserMain" component={UserMain}></Route>
           <Route exact path="/Recycle" component={RecycleUser}></Route>
           <Route exact path="/UserLanding" component={UserLanding}></Route>
