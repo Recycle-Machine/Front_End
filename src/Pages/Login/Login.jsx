@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import Navbar from '../../components/Navbar';
+import UserNavbar from '../../components/UserNavbar';
 import "./Login.css"
 
 class Login extends React.Component{
@@ -9,7 +9,7 @@ class Login extends React.Component{
             <React.Fragment>
                 <div className="loginBackground" style={{ height: '100vh' }}>
                     <center>
-                        <Navbar></Navbar>
+                        <UserNavbar></UserNavbar>
                         <div className="allItemsBackground">
                             <div className="texts">
                                 <img className="imgLog" src={"https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"} alt="" />

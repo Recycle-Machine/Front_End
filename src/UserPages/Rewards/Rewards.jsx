@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/Navbar';
+import UserNavbar from '../../components/UserNavbar';
 import './Rewards.css'
 
 class Rewards extends React.Component{
@@ -7,7 +7,7 @@ class Rewards extends React.Component{
         return(
             <React.Fragment>
                 <div className="backgroundRecycle" style={{ height: '100vh' }}>
-                <Navbar></Navbar>
+                <UserNavbar></UserNavbar>
                     <div className="rewardsScholarship">
                         <h1>Scholarship</h1>
                         <img src="https://www.dropbox.com/s/te167zmrfq8cf0p/icons8-edificio-escolar-30.png?raw=1" alt="" />

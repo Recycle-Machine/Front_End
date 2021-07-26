@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar";
+import UserNavbar from "../../components/UserNavbar";
 import "./UserLanding.css"
 
 
@@ -9,7 +9,7 @@ class UserLanding extends React.Component{
         return(
             <React.Fragment>
                 <div className="userLandingBackground" style={{ height: '100vh' }}>
-                <Navbar></Navbar>
+                <UserNavbar></UserNavbar>
                     <div className="userImgContainer"><img src="https://www.dropbox.com/s/4gylvjg08xizpjg/deer.png?raw=1" alt="Material" /></div>
                     <div className="userCardContainer">
                         <div className="userImgContainer1"><img src="https://www.dropbox.com/s/f39pivzkx16zk6m/icons8-maquina-expendedora-50_1.png?raw=1" alt="Material" /></div>
@@ -33,7 +33,7 @@ class UserLanding extends React.Component{
                         </center>
                     </div>
                         <div className="userCardInfo">
-                        <Link to="/Materials">
+                        <Link to="/User Materials">
                             <div>
                                 <br/>
                                 <div className="userTextInfo">Start Recycling</div>

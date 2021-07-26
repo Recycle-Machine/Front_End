@@ -28,6 +28,14 @@ class UserMain extends React.Component {
               <Link to="/UserLanding">
                 <button className="userButton">Save the world</button>
               </Link>
+              <Link to="/Login">
+              <button className="userButton1"></button>
+                <img className="mainImg1"
+                    src={
+                      "https://www.dropbox.com/s/0tdmcc0elkcg17e/icons8-usuario-30_1.png?raw=1"
+                    }
+                    alt=""/>
+              </Link>
             </center>
           </div>
         </div>

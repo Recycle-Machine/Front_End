@@ -41,7 +41,7 @@ class QR extends React.Component {
             <Link to="/Login">
                 <button className="qrButton">New Transaction</button>
               </Link>
-            <Link to="/UserMain">
+            <Link to="/">
                 <button className="qrButton1">Main Menu</button>
               </Link>
             </div>

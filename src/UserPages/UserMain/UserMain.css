@@ -20,6 +20,7 @@
 
 #mainH3{
     width: 50%;
+    margin-left: 2%;
     font-family: 'Baloo 2', cursive;
     font-size: 200%;
     float: left;
@@ -30,16 +31,36 @@
 .userButton{
     width: 25%;
     height: 75px;
-    margin-top: 100px;
-    margin-left: 75px;
-    border-radius: 10cm;
+    margin-top: 10%;
+    margin-left: 15%;
     font-family: 'Baloo 2', bold;
+    color: white;
+    border-radius: 10cm;
+    background-color: #05386B;
     border-color: #05386B;
     border-style: double;
     font-size: 40px;
 }
 
-.userButton:hover{
+.userButton1{
+    width: 6%;
+    height: 75px;
+    margin-top: 10%;
+    margin-left: -35%;
+    border-radius: 10cm;
     background-color: #05386B;
-    color: antiquewhite;
+    border-color: #05386B;
+    border-style: double;
+    position: fixed;
+}
+
+.mainImg1{
+    width: 6%;
+    height: 75px;
+    margin-top: 10%;
+    margin-left: -35%;
+    border-radius: 10cm;
+    border-color: #05386B;
+    border-style: double;
+    position: fixed;
 }
