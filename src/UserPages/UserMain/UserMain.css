@@ -5,9 +5,9 @@
 }
 
 .mainImg{
-    margin-top: -32%;
+    margin-top: -25%;
     float: right;
-    width: 52%;
+    width: 50%;
     position: center;
 }
 
@@ -32,7 +32,7 @@
     width: 25%;
     height: 75px;
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 10%;
     font-family: 'Baloo 2', bold;
     color: white;
     border-radius: 10cm;
@@ -42,7 +42,7 @@
     font-size: 40px;
 }
 
-.userButton1{
+.aboutButton{
     width: 6%;
     height: 75px;
     margin-top: 10%;
@@ -53,9 +53,13 @@
     border-style: double;
     position: fixed;
 }
-
+.aboutIcon{
+    font-size: 300%;
+    font-family: 'Baloo 2', cursive;
+    color:aliceblue;
+}
 .mainImg1{
-    width: 6%;
+    width: 5%;
     height: 75px;
     margin-top: 10%;
     margin-left: -35%;

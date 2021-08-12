@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+.backgroundQR{ 
+    background-color: #5CDB95;
+}
+.title_qr{
+    justify-content: center;
+    font-size: 400%;
+    font-family: 'Baloo 2', cursive;
+    color: #05386B;
+}
+
+.userCardInfoAbout{
+    background-color: #05386B;
+    width: 45%;
+    height: 15%;
+    position: fixed;
+    margin-left: 28%;
+    border-radius: 35px;
+}
+.button_text{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 300%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+.aboutParagraph{
+    justify-content: center;
+    margin: 3%;
+    font-size: 250%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}

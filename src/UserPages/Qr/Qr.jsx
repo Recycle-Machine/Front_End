@@ -1,50 +1,37 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./Qr.css";
-import QRCode from "react-qr-code";
+import QRCode from "qrcode.react";
+import './QR.css'
+import { Link } from 'react-router-dom'
 
 class QR extends React.Component {
-  render() {
-    return (
+  render() {  
+    var id = this.props.location.state;
+    return (  
       <React.Fragment>
-          <div className="qrBackgroundColor" style={{ height: '100vh' }}>
-          <div>
-            <center>
-                <br></br>
-          <h1 className="qrTitle">Read this with your mobile application</h1>
-          <br></br>
-            </center>
+        
+        <div className="backgroundQR" style={{ height: "100vh" }}>
+        <br></br>
+        <br></br>
+        <center><h1 className="title_qr">Scan this QR code to claim your points</h1></center>
+         
+          <div className="containerQR">
+            <QRCode size="180"className="qrcode" value={id} />
           </div>
-              <center>
-            <img
-                    className="whale"
-                    src={
-                      "https://www.dropbox.com/s/ujsidpyyhwjscog/ballena.png?raw=1"
-                    }
-                    alt=""
-                  />
-               </center>
-            <center>
-            <div className="square">
-            <QRCode className="QRCode" value="Hola Gueis" size={256} bgColor="#282c34" fgColor="#fff" level="H" />
-            </div>
-            </center>
-              <center>
-            <img
-                    className="ray"
-                    src={
-                      "https://www.dropbox.com/s/b242w33jphhdzwr/raya.png?raw=1"
-                    }
-                    alt=""
-                  />
-               </center> 
-            <Link to="/Login">
-                <button className="qrButton">New Transaction</button>
-              </Link>
-            <Link to="/">
-                <button className="qrButton1">Main Menu</button>
-              </Link>
-            </div>
+          <Link to="/Recycle">
+              
+              <br/>
+                <button className="userCardInfoA"><p className="button_text">New Transaction</p></button>
+              
+            </Link>
+            <Link to="/UserLanding">
+              
+              <br/>
+                <button className="userCardInfoB"><p className="button_text">Main Menu</p></button>
+              
+            </Link>
+
+        </div>
+        
       </React.Fragment>
     );
   }

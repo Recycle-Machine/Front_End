@@ -20,12 +20,12 @@ class UserBottleMaterialInfo extends React.Component{
                             <br></br>
                         </div>
                         <div id="Suggestions_container">
-                            <div className="label"><p>Suggestions</p></div>
-                            <div className="text_field"><p></p></div>
+                            <div className="label"><p className="tittleSuggestions">Suggestions</p></div>
+                            <div className="text_field"><p className="bottleSuggestions">Ciel 600ml Coca Cola Family Bottle</p></div>
                         <br />
-                            <div className="text_field"><p></p></div>
+                            <div className="text_field"><p className="bottleSuggestions">Fanta 600ml Coca Cola Family Bottle</p></div>
                         <br />
-                            <div className="text_field"><p></p></div>
+                            <div className="text_field"><p className="bottleSuggestions">Coca Cola 600ml Coca Cola Family Bottle</p></div>
                         <br />
                     </div>
                 </div>

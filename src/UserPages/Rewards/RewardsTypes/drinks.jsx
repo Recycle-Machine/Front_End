@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./UserMain.css";
+import "../../UserMain/UserMain.css";
 
-class UserMain extends React.Component {
+class RewardDrinks extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -13,11 +13,9 @@ class UserMain extends React.Component {
                   <br />
                   <br />
                   <br />
-                  <h1 className="userTitle">Welcome</h1>
+                  <h1 className="userTitle">Drinks Discount</h1>
                   <br></br>
-                  <h3 id="mainH3">“Never doubt that a small group of thoughtful,
-                  committed citizens can change the world;                  indeed, it is the only thing that ever has.”
-                  —Margaret Mead</h3>
+                  <h3 id="mainH3">Once you have gathered 500 points you can claim your Drinks Coupon which will give you a 50% Discount on the elegible brands</h3>
                   <img
                     className="mainImg"
                     src={
@@ -25,11 +23,8 @@ class UserMain extends React.Component {
                     }
                     alt=""
                   />
-              <Link to="/UserLanding">
-                <button className="userButton">Save the world</button>
-              </Link>
-              <Link to="/about/">
-                <button className="aboutButton"><p className="aboutIcon">?</p></button>
+              <Link to="/Rewards">
+                <button className="userButton">Check other Rewards</button>
               </Link>
 
             </center>
@@ -40,4 +35,4 @@ class UserMain extends React.Component {
   }
 }
 
-export default UserMain;
+export default RewardDrinks;

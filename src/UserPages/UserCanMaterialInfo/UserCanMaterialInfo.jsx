@@ -20,12 +20,12 @@ class UserCanMaterialInfo extends React.Component{
                             <br></br>
                         </div>
                         <div id="Suggestions_container">
-                            <div className="label"><p>Suggestions</p></div>
-                            <div className="text_field"><p></p></div>
+                            <div className="label"><p className="tittleSuggestions">Suggestions</p></div>
+                            <div className="text_field"><p className="bottleSuggestions">Coca Cola 330ml Coca Cola Family Bottle</p></div>
                         <br />
-                            <div className="text_field"><p></p></div>
+                            <div className="text_field"><p className="bottleSuggestions">Fanta 330ml Coca Cola Family Bottle</p></div>
                         <br />
-                            <div className="text_field"><p></p></div>
+                            <div className="text_field"><p className="bottleSuggestions">Sprite 330ml Coca Cola Family Bottle</p></div>
                         <br />
                     </div>
                 </div>

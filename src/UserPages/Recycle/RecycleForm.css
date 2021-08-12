@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+.backgroundRecycleForm{
+    background-color: #5CDB95;
+}
+.inputSize{
+    margin-top:10%;
+    height: 25%;
+    width: 50%;
+    border-radius: 30;
+}
+.plasticoTexto{
+    width: 80%;
+    position:fixed;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: 500%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+.aluminioTexto{
+    width: 80%;
+    position:fixed;
+    margin-left: 50%;
+    margin-top: -1%;
+    font-size: 350%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+.plasticoTitulo{
+    width: 80%;
+    position:fixed;
+    margin-left: 21%;
+    margin-top: 11%;
+    font-size: 350%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+.aluminioTitulo{
+    width: 80%;
+    position:fixed;
+    margin-left: 13%;
+    margin-top: 11%;
+    font-size: 350%;
+    font-family: 'Baloo 2', cursive;
+    color: 
+    white;
+}
+.bgPlastico{
+    position:fixed;
+    height: 1%;
+    width: 1%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background: white;
+    border-radius: 50;
+}
+.qr-code{
+    font-size: 500%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+.end{
+    font-size: 500%;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}

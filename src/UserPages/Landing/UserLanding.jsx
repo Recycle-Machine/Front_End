@@ -10,7 +10,7 @@ class UserLanding extends React.Component{
             <React.Fragment>
                 <div className="userLandingBackground" style={{ height: '100vh' }}>
                 <UserNavbar></UserNavbar>
-                    <div className="userImgContainer"><img src="https://www.dropbox.com/s/4gylvjg08xizpjg/deer.png?raw=1" alt="Material" /></div>
+                    <div className="userImgContainer"><img src="" alt="" /></div>
                     <div className="userCardContainer">
                         <div className="userImgContainer1"><img src="https://www.dropbox.com/s/f39pivzkx16zk6m/icons8-maquina-expendedora-50_1.png?raw=1" alt="Material" /></div>
                         <br></br>
@@ -28,35 +28,36 @@ class UserLanding extends React.Component{
                             Teléfono: 614 590 8442
                         </div>
                         <br></br>
-                        <div className="userPointsContainer"><p>Find other machines</p></div>
+                        <div className="userPointsContainer"><p>Bee Green</p></div>
                         <br></br>
                         </center>
                     </div>
-                        <div className="userCardInfo">
+                        <div>
                         <Link to="/User Materials">
                             <div>
                                 <br/>
-                                <div className="userTextInfo">Start Recycling</div>
+                                <button className="userCardInfo"><p className="button_text">Materials Info</p></button>
                             </div>
                         </Link>
                         </div>
-                        <div className="userCardInfo1">
+                        <div>
                         <Link to="/Rewards">
                             <div>
                                 <br/>
-                                <div className="userTextInfo1">Rewards</div>
+                                <button className="userCardInfo1"><p className="button_text">Rewards</p></button>
                             </div>
                         </Link>
                         </div>
-                        <div className="userCardInfo2">
+                        <div >
                         <Link to="/Recycle">
                             <div>
                                 <br/>
-                                <div className="userTextInfo2">Materials Accepted</div>
+                                <button className="userCardInfo2"><p className="button_text">Start Recycling</p></button>
                             </div>
                         </Link>
                         </div>
                     </div>
+                       
             </React.Fragment>
         );
     }

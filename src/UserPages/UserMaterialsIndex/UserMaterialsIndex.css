@@ -1,31 +1,42 @@
-.MaterialContainer{
-    width: 80%;
-    height: 25%;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+.iconBackground{
+    margin-top: -2%;
+    height: 30%;
+    width: 30%;
     background-color: #05386B;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 7%;
+    border-radius: 20px;
+    margin-left: 5%;
 }
 
 .ImageContainer{
     height: 80%;
-    width: 15%;
+    width:  50%;
     background-color: #5CDB95;
-    border-radius: 15%;
-    margin-top: 5%;
-    margin-left: 5%;
-    transform: translateY(10%);
+    border-radius: 20px;
+    margin-top: 23% !important;
+    margin-left: 23%;
 }
 .ImageContainer img{
-    width: 60% !important;
-    margin-left: 20%;
-    margin-top: 10%;
+    width: 50% !important;
+    margin-left: 25%;
+    margin-top: 20%;
 }
 
-.MaterialContainer p{
-    text-align: center;
-    font-size: xx-large;
-    color: white;
-    font-weight: 700;
-    transform: translateY(-150%);
+.bottleButtonContainer{
+position:fixed;
+margin-left: 35%;
+margin-top: -10%;
+}
+.bottleButton{
+position: fixed;
+height: 30%;
+width: 50%;
+border-radius: 20px;
+margin-top: -4.2%;
+margin-left: 5%;
+font-size: 400%;
+font-family: 'Baloo 2', cursive;
+background-color: #05386B;
+color: white;
 }

@@ -70,3 +70,17 @@
     font-size: 300%;
     font-weight: 700;
 }
+.tittleSuggestions{
+    font-family: 'Baloo 2', cursive;
+}
+.bottleSuggestions{
+    background-color: #5CDB95;
+    border-radius: 25px;
+    font-size:200%;
+    position:fixed;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-weight: 900;
+    font-family: 'Baloo 2', cursive;
+    color: black;
+}
