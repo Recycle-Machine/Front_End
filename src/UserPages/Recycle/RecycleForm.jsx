@@ -11,7 +11,7 @@ class RecycleForm extends Component {
         data: {
             glass: Math.floor(Math.random()*20),
             aluminum: Math.floor(Math.random()*20),
-            username:"null",
+            username:"Fredy",
             machine: "1",
         },
     };
@@ -44,7 +44,7 @@ class RecycleForm extends Component {
                                     <div className="imageItem"><img src="https://www.dropbox.com/sh/2efk6rmts9zqhit/AABHHWavRc1s0Y3lzQWjDhipa/icons8-botella-de-agua-50.png?raw=1" alt="" /></div>
                                     <div classname="bgPlastico">
                                     <label className = "plasticoTitulo">
-                                        Glass
+                                        Plastic
                                     </label>
                                     </div>
                                     <p className="plasticoTexto">{aluminio}</p>

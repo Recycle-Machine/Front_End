@@ -11,14 +11,14 @@ class Rewards extends React.Component{
                 <UserNavbar></UserNavbar>
                     <div className="rewardsScholarship">
                         <h1 className="titleRewards">Scholarship</h1>
-                        <img src="https://www.dropbox.com/s/te167zmrfq8cf0p/icons8-edificio-escolar-30.png?raw=1" alt="" />
+                        <img src="https://www.dropbox.com/s/r3ju9xorpq1u4ru/Professor-rafiki.png?raw=1" alt="" />
                         <Link to='/Rewards/School/'>
                         <button className="buttonRewards">20% discount school enrollment</button>
                         </Link>
                     </div>
                     <div className="rewardsFood">
                         <h1 className="titleRewards">Food</h1>
-                        <img src="https://www.dropbox.com/s/cosu0jlbct1ifeg/icons8-salami-pizza-30.png?raw=1" alt="" />
+                        <img src="https://www.dropbox.com/s/cr20fmv2n58401k/Street_Food-amico.png?raw=1" alt="" />
                         <Link to='/Rewards/Foods/'>
                         <button className="buttonRewards">30% discount on food</button>
                         </Link>
@@ -26,7 +26,7 @@ class Rewards extends React.Component{
                     <div className="rewardsDrinks">
                         <h1 className="titleRewards">Drinks</h1>
                         <Link to='/Rewards/Drinks/'>
-                        <img src="https://www.dropbox.com/s/hhxakdq0rnf6vfd/icons8-cup-with-straw-50.png?raw=1" alt="" />
+                        <img src="https://www.dropbox.com/s/vtg6kdrhoj3c8or/Craft_beer_manufacturing-cuate.png?raw=1" alt="" />
                         <button className="buttonRewards">50% discount on drinks</button>
                         </Link>
                     </div>

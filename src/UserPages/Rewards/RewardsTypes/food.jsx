@@ -19,7 +19,7 @@ class RewardFood extends React.Component {
                   <img
                     className="mainImg"
                     src={
-                      "https://www.dropbox.com/s/phupysy1lwgkpm6/Forest-amico_1.svg?raw=1"
+                      "https://www.dropbox.com/s/cr20fmv2n58401k/Street_Food-amico.png?raw=1"
                     }
                     alt=""
                   />

@@ -28,7 +28,7 @@ class UserLanding extends React.Component{
                             Teléfono: 614 590 8442
                         </div>
                         <br></br>
-                        <div className="userPointsContainer"><p>Bee Green</p></div>
+                        <div className="userPointsContainer"><p>Salvage</p></div>
                         <br></br>
                         </center>
                     </div>

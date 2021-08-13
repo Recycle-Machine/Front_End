@@ -10,9 +10,9 @@ class About extends React.Component {
         <div className="backgroundQR" style={{ height: "100vh" }}>
         <br></br>
         <br></br>
-        <center><h1 className="title_qr">Bee Green</h1></center>
+        <center><h1 className="title_qr">Salvage</h1></center>
 
-        <p className="aboutParagraph"> Bee Green is a company compromised with the environment, 100% of the earnings gathered by recycling are
+        <p className="aboutParagraph"> Salvage is a company compromised with the environment, 100% of the earnings gathered by recycling are
             focused on either the companies growth or other environmental causes, this company is not lucrative and 
             it's mere purpose is to create and support the recycling culture.
         </p>

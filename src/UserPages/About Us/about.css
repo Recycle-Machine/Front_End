@@ -18,6 +18,15 @@
     margin-left: 28%;
     border-radius: 35px;
 }
+.userCardInfoAbout{
+    background-color: #05386B;
+    width: 45%;
+    height: 15%;
+    position: fixed;
+    margin-left: 28%;
+    border-radius: 35px;
+}
+
 .button_text{
     width: 80%;
     margin-left: 10%;
@@ -25,7 +34,9 @@
     font-size: 300%;
     font-family: 'Baloo 2', cursive;
     color: white;
+    
 }
+
 .aboutParagraph{
     justify-content: center;
     margin: 3%;

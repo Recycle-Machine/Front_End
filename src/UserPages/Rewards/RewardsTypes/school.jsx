@@ -19,7 +19,7 @@ class RewardSchool extends React.Component {
                   <img
                     className="mainImg"
                     src={
-                      "https://www.dropbox.com/s/phupysy1lwgkpm6/Forest-amico_1.svg?raw=1"
+                      "https://www.dropbox.com/s/r3ju9xorpq1u4ru/Professor-rafiki.png?raw=1"
                     }
                     alt=""
                   />
